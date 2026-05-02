@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Licencias y Atribuciones | Rutas Irapuato</title>
+  <meta name="description" content="Licencias, atribuciones y avisos de terceros utilizados por Rutas Irapuato.">
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --text: #172033;
+      --muted: #5d6b82;
+      --card: #ffffff;
+      --border: #d9e1ec;
+      --accent: #dc2626;
+      --link: #1d4ed8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 32px 18px 56px;
+    }
+
+    article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 18px 45px rgba(23, 32, 51, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 10px;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: #111827;
+    }
+
+    h3 {
+      margin-top: 20px;
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+      color: #1f2937;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 7px;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .updated {
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+      background: #fff7f7;
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin: 22px 0;
+      color: #4b1f1f;
+    }
+
+    .license-card {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin: 14px 0;
+    }
+
+    .license-card p {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      max-width: 920px;
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding: 18px 12px 40px;
+      }
+
+      article {
+        padding: 22px 18px;
+        border-radius: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <p class="eyebrow">Rutas Irapuato</p>
+      <h1>Licencias y Atribuciones</h1>
+      <p class="updated">Última actualización: 2 de mayo de 2026</p>
+
+      <div class="notice">
+        Esta página reúne avisos, licencias y atribuciones de tecnologías, mapas, datos e iconos utilizados por la aplicación móvil Rutas Irapuato.
+      </div>
+
+      <h2>1. Aplicación Rutas Irapuato</h2>
+      <p>
+        Rutas Irapuato es una aplicación móvil desarrollada por Brandon Ramirez para consultar rutas de transporte público, referencias y mapas de Irapuato, Guanajuato.
+      </p>
+      <p>
+        El nombre, icono, diseño visual propio de la aplicación, configuración específica de rutas, selección de puntos y contenido creado específicamente para Rutas Irapuato pertenecen a su responsable, salvo que se indique lo contrario.
+      </p>
+
+      <h2>2. Software y librerías de código abierto</h2>
+      <p>
+        Rutas Irapuato utiliza software de código abierto y paquetes de terceros. Cada componente conserva su propia licencia.
+      </p>
+
+      <div class="license-card">
+        <h3>Flutter y Dart</h3>
+        <p>
+          La aplicación está construida con Flutter y Dart, tecnologías de Google distribuidas como software de código abierto.
+        </p>
+        <p>
+          Sitios oficiales:
+          <a href="https://flutter.dev/" rel="noopener noreferrer">https://flutter.dev/</a> y
+          <a href="https://dart.dev/" rel="noopener noreferrer">https://dart.dev/</a>
+        </p>
+      </div>
+
+      <div class="license-card">
+        <h3>Paquetes Flutter/Dart</h3>
+        <p>La app puede incluir, entre otros, los siguientes paquetes:</p>
+        <ul>
+          <li>cupertino_icons</li>
+          <li>http</li>
+          <li>maplibre_gl</li>
+          <li>path_provider</li>
+          <li>geolocator</li>
+          <li>shared_preferences</li>
+        </ul>
+        <p>
+          Las licencias completas de estos paquetes se pueden consultar en sus repositorios, en pub.dev y dentro de los avisos de licencias que muestra la aplicación.
+        </p>
+      </div>
+
+      <div class="license-card">
+        <h3>MapLibre</h3>
+        <p>
+          Rutas Irapuato utiliza MapLibre para mostrar mapas dentro de la aplicación.
+        </p>
+        <p>
+          MapLibre y sus componentes mantienen sus propias licencias de código abierto. La información de licencia del paquete Flutter puede consultarse en:
+          <a href="https://pub.dev/packages/maplibre_gl/license" rel="noopener noreferrer">https://pub.dev/packages/maplibre_gl/license</a>
+        </p>
+      </div>
+
+      <h2>3. Mapas, datos cartográficos y atribuciones</h2>
+
+      <div class="license-card">
+        <h3>OpenStreetMap</h3>
+        <p>
+          Parte de los datos cartográficos utilizados por la app o por proveedores de mapas puede provenir de OpenStreetMap y sus colaboradores.
+        </p>
+        <p>
+          OpenStreetMap es open data bajo la licencia Open Data Commons Open Database License (ODbL). OpenStreetMap requiere atribución a OpenStreetMap y sus colaboradores, así como referencia a la licencia aplicable.
+        </p>
+        <p>
+          Más información:
+          <a href="https://www.openstreetmap.org/copyright" rel="noopener noreferrer">https://www.openstreetmap.org/copyright</a>
+        </p>
+      </div>
+
+      <div class="license-card">
+        <h3>OpenFreeMap</h3>
+        <p>
+          Rutas Irapuato puede usar estilos y tiles de OpenFreeMap para los mapas de calles y mapas descargables.
+        </p>
+        <p>
+          El uso de OpenFreeMap está sujeto a sus propios términos de servicio y políticas.
+        </p>
+        <p>
+          Términos:
+          <a href="https://openfreemap.org/tos/" rel="noopener noreferrer">https://openfreemap.org/tos/</a>
+        </p>
+      </div>
+
+      <div class="license-card">
+        <h3>Esri / ArcGIS World Imagery</h3>
+        <p>
+          La vista satelital de Rutas Irapuato puede utilizar imágenes y tiles de Esri / ArcGIS World Imagery.
+        </p>
+        <p>
+          La atribución de World Imagery puede incluir fuentes como Esri, Maxar, Earthstar Geographics y la comunidad GIS, según disponibilidad y zona consultada.
+        </p>
+        <p>
+          Información de atribución:
+          <a href="https://support.esri.com/en-us/knowledge-base/what-is-the-correct-way-to-cite-an-arcgis-online-basema-000012040" rel="noopener noreferrer">Esri - cita de basemaps ArcGIS Online</a>
+        </p>
+      </div>
+
+      <h2>4. Datos de rutas y referencias locales</h2>
+      <p>
+        El catálogo de rutas, referencias, puntos de interés, escuelas, hospitales, farmacias, ópticas y otros puntos relevantes de Irapuato puede provenir de trabajo propio, revisión manual, fuentes públicas, datos abiertos, referencias comunitarias y datos cartográficos disponibles públicamente.
+      </p>
+      <p>
+        La información de rutas puede cambiar por modificaciones operativas del transporte, obras, cierres viales, tráfico u otras condiciones externas. Rutas Irapuato no garantiza que la información sea siempre completa, exacta o actualizada en tiempo real.
+      </p>
+
+      <h2>5. Icono, marca y materiales visuales</h2>
+      <p>
+        El icono de la aplicación, el nombre “Rutas Irapuato” y los elementos visuales creados específicamente para la app son materiales propios o proporcionados por el responsable del proyecto.
+      </p>
+      <p>
+        Las marcas, nombres, logos o servicios de terceros mencionados en la app pertenecen a sus respectivos titulares.
+      </p>
+
+      <h2>6. Sin afiliación oficial</h2>
+      <p>
+        Rutas Irapuato no representa necesariamente a autoridades municipales, estatales, operadores de transporte, OpenStreetMap, OpenFreeMap, Esri, MapLibre, Google, Apple ni otros terceros mencionados, salvo que se indique expresamente.
+      </p>
+      <p>
+        La mención de terceros se realiza para atribución, interoperabilidad, referencia informativa o cumplimiento de licencias.
+      </p>
+
+      <h2>7. Avisos dentro de la aplicación</h2>
+      <p>
+        Además de esta página, la aplicación puede mostrar avisos de licencias de software de código abierto dentro de una sección de “Acerca de”, “Licencias” o equivalente.
+      </p>
+      <p>
+        En caso de diferencias entre esta página y las licencias oficiales de cada proveedor o paquete, prevalecerán los términos oficiales de cada tercero.
+      </p>
+
+      <h2>8. Contacto</h2>
+      <div class="license-card">
+        <p><strong>Responsable:</strong> Brandon Ramirez</p>
+        <p><strong>Correo:</strong> <a href="mailto:brandonramirez2511@gmail.com">brandonramirez2511@gmail.com</a></p>
+        <p><strong>Aviso de privacidad:</strong> <a href="https://brandon1125.github.io/privacidad/">https://brandon1125.github.io/privacidad/</a></p>
+        <p><strong>Soporte:</strong> <a href="https://brandon1125.github.io/soporte/">https://brandon1125.github.io/soporte/</a></p>
+      </div>
+    </article>
+
+    <footer>
+      Rutas Irapuato
+    </footer>
+  </main>
+</body>
+</html>
